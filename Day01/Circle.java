@@ -2,18 +2,18 @@ package Day01;
 
 import java.util.Scanner;
 
-public class Circle {
+공개 class Circle {
 
-	public static void main(String[] args) {
+	공개 static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
 		double half = 0;
 		final double PI = 3.14;
 		
-		System.out.print("원의 반지름을 입력하세요(cm) : ");
+		System.out.print("원의 반지름을 입력하세요ㄹ(cm) : ");
 		half = sc.nextFloat();
 		
-		System.out.printf("원의 넓이는 %.2f 입니다", half*half*PI); 
+		System.out.printf("원의 넓이는 %.2f 입니다.", half*half*PI); 
 	}
 
 }
