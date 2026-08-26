@@ -1,8 +1,8 @@
 package abstractclass;
 
-public class CounTest {
+공개 class CountTest {
 	
-	public static void main(String[] args) {
+	공개 static void main(String[] args) {
 		
 		Countable[] arr = {
 	            new Bird("뻐꾸기", 5),
