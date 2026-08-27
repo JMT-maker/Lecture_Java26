@@ -8,18 +8,18 @@ public class Cylinder extends Circle{
 		this.radius = radius;
 		this.height = height;
 	}
-
 	public double getHeight() {
 		return height;
 	}
-
 	public void setHeight(double height) {
 		this.height = height;
 	}
-	
 	double getArea() {
 		return (2*PI*radius*radius) + (2 * PI * radius * height);
 	}
-	
-
 }
+// package circles;
+
+// public class Cylinder extends CircleTemplate { 
+
+//		public Cylinder(double radius)
